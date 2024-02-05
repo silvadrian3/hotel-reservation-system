@@ -1,0 +1,322 @@
+@charset "utf-8";
+body {
+	background-color:#EEE8CD;
+    font-family: "Gill Sans MT", Calibri, sans-serif, arial;
+    padding:1% 2%;
+}
+/**
+.background{
+	background: url(image/bg.jpg) no-repeat center center fixed;
+}
+*/
+.c-li-container {
+    margin: 0 auto;
+    width: 40%;
+}
+.c-li-inner-container {
+    border-radius: 3px 3px 3px 3px;
+    margin: 12% 0;
+    padding: 8% 5%;
+}
+.c-li-inner-container .c-li-header img {
+    margin: auto;
+    padding-bottom: 5%;
+}
+.c-li-textfield {
+    width: 100%;
+    margin: 2% 0;
+    padding: 5px;
+    outline: none;
+    line-height: 2;
+}
+.c-li-btn {
+    background-color: #5292d5;
+    color: #FFFFFF;
+    width: 100%;
+    display: inline-block;
+    padding: 10px 12px;
+    margin: 15px 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+.c-li-form {
+    padding: 8% 10%;
+    background-color: #FFF;
+    border: solid 1px #d5d5d5;
+}
+#div_login_status {
+    padding: 2%;
+    display: inline-block;
+}
+.status {
+    padding: 1% 2%;
+    display: inline-block;
+}
+textarea {
+    resize: none;
+}
+.c-tbl-action {
+    width: 5%;
+}
+.welcome p {
+    font-size:14px;
+    margin: 2% 0;
+}
+.welcome p a:link {
+    text-decoration: none;
+    color: #5292d5;
+}
+.welcome p a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+.welcome p a:visited {
+    color: #5292d5;
+}
+.nav {
+    width: 100%;
+    text-align: center;
+    background-color: #7FFF00;
+    border-radius: 5px;
+    padding: 1% 2%;
+    margin-bottom: 2%;
+}
+.nav .links {
+    font-size: 14px;
+    text-align: center;
+}
+.nav .title {
+    font-size: 18px;
+    text-align: left;
+}
+.nav .title span {
+    cursor: pointer;
+}
+.nav .links a:link, .forgot_password a:link, .signup a:link {
+    text-decoration: none;
+    color: #5292d5;
+    margin-left: 10px;
+}
+
+.forgot_password {
+    float: left;
+    margin-left: -10px !important;
+    padding-bottom: 5%;
+}
+
+.signup {
+    float: right;
+}
+
+.nav .links a:hover, .forgot_password a:hover, .signup a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+.nav .links a:visited, .forgot_password a:visited, , .signup a:visited {
+    color: #5292d5;
+}
+
+.bedroom_type {
+    
+    margin: auto;
+}
+
+.bedroom_type section{
+    
+    float:left; 
+    width:45%;
+    padding:1.5%;
+    text-align: center;
+}
+
+
+.tbl_RecordList {
+    border: solid 1px #949494;
+    width: 96%;
+    margin: auto;
+    padding: 0;
+}
+.tbl_RecordList td {
+    border: solid 1px #949494;
+    font-size: 90%;
+    padding: 5px;
+}
+.tbl_RecordList td .action {
+    background-color: #5292d5;
+    
+    color: #FFFFFF;
+    display: inline-block;
+    padding: 2px 8px;
+    font-size: 12px;
+    margin: 0 5px;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+.tbl_RecordList th {
+    border: solid 1px #949494;
+    font-weight: 700;
+    padding: 5px;
+    font-size: 95%;
+    color: #010101
+}
+.div_search {
+    margin: 0% 5% 0 5%
+}
+.div_search label {} .div_search .searchfield {
+    width: 200px;
+    margin: 2% 0;
+    padding: 5px;
+    outline: none;
+    font-size: 12px;
+}
+.div_search .btnsearch {
+    background-color: #5292d5;
+    color: #FFFFFF;
+    display: inline-block;
+    padding: 4px 12px;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.div_btn_tab {
+    margin: 0 5% 0% 5%
+}
+
+.add_item {
+    margin: 0 2%;
+}
+.add_item .btn, .div_btn_tab .btn {
+    background-color: #5292d5;
+    color: #FFFFFF;
+    display: inline-block;
+    padding: 4px 12px;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+.view_table {
+    margin: 2%;
+}
+.view_table p,
+label {
+    font-size: 14px;
+}
+.view_table table {
+    width: 50%;
+}
+.view_table table td {
+    padding: 2%;
+}
+.view_table .field {
+    width: 100%;
+    padding: 5px;
+    outline: none;
+}
+.view_table .btn {
+    background-color: #5292d5;
+    color: #FFFFFF;
+    display: inline-block;
+    padding: 5px 16px;
+    font-size: 14px;
+    font-weight: 400; 
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    margin-top: 3%;
+}
+.view_table p span {
+    color:#FF0000;
+}
+
+
+.btnprint {
+    background-color: #5292d5;
+    color: #FFFFFF;
+    display: inline-block;
+    padding: 8px 22px;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    margin-top:3%;
+}
+
+.div_rooms {
+    float:left; 
+    width:30%;
+    padding:1.5%;
+    text-align: center;
+}
+
+.div_rooms .btn {
+    background-color: #5292d5;
+    color: #FFFFFF;
+    display: inline-block;
+    padding: 5px 16px;
+    font-size: 14px;
+    font-weight: 400; 
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    margin-top: 3%;
+}
+
+.bedroom_type .btn {
+    background-color: #5292d5;
+    color: #FFFFFF;
+    display: inline-block;
+    padding: 5px 16px;
+    font-size: 14px;
+    font-weight: 400; 
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    margin-top: 3%;
+}
+
+.notification {
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+    position: relative;
+    padding: .75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+
+html 
+body{
+	background: url(yayadub.jpg) no - repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;	
+}
